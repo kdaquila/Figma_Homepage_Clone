@@ -38,12 +38,6 @@
 .My\(20px\), .Mb\(20px\) {
   margin-bottom: 20px;
 }
-.My\(30px\) {
-  margin-top: 30px;
-}
-.My\(30px\), .Mb\(30px\) {
-  margin-bottom: 30px;
-}
 .Mt\(-5px\) {
   margin-top: -5px;
 }
@@ -53,8 +47,14 @@
 .Mt\(50px\) {
   margin-top: 50px;
 }
-.Miw\(350px\) {
-  min-width: 350px;
+.Mb\(30px\) {
+  margin-bottom: 30px;
+}
+.Mstart\(18px\) {
+  margin-left: 18px;
+}
+.Miw\(375px\) {
+  min-width: 375px;
 }
 .Py\(100px\) {
   padding-top: 100px;
