@@ -17,6 +17,14 @@ function compileAtomicCSS() {
     return gulp.src("./src/templates/*.html")
         .pipe(acss({
             outfile: 'atomic.css',
+            acssConfig: {
+                'breakPoints': {
+                    'sm': '@media screen and (min-width: 576px)',
+                    'md': '@media screen and (min-width: 768px)',
+                    'lg': '@media screen and (min-width: 992px)',
+                    'xl': '@media screen and (min-width: 1200px)'
+                }
+            }
         }))
         .pipe(gulp.dest("./src/css"));
 }
