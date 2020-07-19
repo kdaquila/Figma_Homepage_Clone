@@ -1,14 +1,20 @@
+.Bdc\(\#808080\)\:h:hover {
+  border-color: #808080;
+}
 .Fw\(n\) {
   font-weight: normal;
 }
 .Fz\(0\.8rem\) {
   font-size: 0.8rem;
 }
+.Fz\(1\.3rem\) {
+  font-size: 1.3rem;
+}
 .Fz\(1\.5rem\) {
   font-size: 1.5rem;
 }
-.Fz\(3\.0rem\) {
-  font-size: 3.0rem;
+.Fz\(2\.5rem\) {
+  font-size: 2.5rem;
 }
 .Lh\(30px\) {
   line-height: 30px;
@@ -20,24 +26,60 @@
   margin-left: auto;
   margin-right: auto;
 }
+.My\(10px\), .Mt\(10px\) {
+  margin-top: 10px;
+}
+.My\(10px\) {
+  margin-bottom: 10px;
+}
+.My\(20px\) {
+  margin-top: 20px;
+}
+.My\(20px\), .Mb\(20px\) {
+  margin-bottom: 20px;
+}
+.My\(30px\) {
+  margin-top: 30px;
+}
+.My\(30px\), .Mb\(30px\) {
+  margin-bottom: 30px;
+}
+.Mt\(-5px\) {
+  margin-top: -5px;
+}
 .Mt\(100px\) {
   margin-top: 100px;
-}
-.Mt\(10px\) {
-  margin-top: 10px;
 }
 .Mt\(50px\) {
   margin-top: 50px;
 }
-.Mb\(20px\) {
-  margin-bottom: 20px;
+.Miw\(350px\) {
+  min-width: 350px;
 }
-.Mb\(30px\) {
-  margin-bottom: 30px;
+.Py\(100px\) {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Py\(30px\) {
+  padding-top: 30px;
+}
+.Py\(30px\), .Pb\(30px\) {
+  padding-bottom: 30px;
 }
 .Pstart\(0\) {
   padding-left: 0;
 }
-.W\(70\%\) {
-  width: 70%;
+.W\(100\%\) {
+  width: 100%;
+}
+.W\(250px\) {
+  width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .Fz\(3\.0rem\)--md {
+    font-size: 3.0rem;
+  }
+  .W\(70\%\)--md {
+    width: 70%;
+  }
 }

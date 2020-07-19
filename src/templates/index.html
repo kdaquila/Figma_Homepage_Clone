@@ -6,96 +6,193 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Gulp Starter Kit</title>
-<!--    <link rel="stylesheet" type="text/css"  href="/node_modules/bootstrap/dist/css/bootstrap.css">-->
     <link rel="stylesheet" type="text/css" href="/src/css/index.css">
     <link rel="stylesheet" href="/src/css/atomic.css">
 </head>
-<body id="atomic" class="bg-dark">
+<body id="atomic" class="Miw(350px)">
 
-<!-- Page Wrapper -->
-<div class="container">
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#"><img src="/src/assets/figma_logo.png" alt="Figma Logo"></a>
-        <!-- Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--  Nav Menu-->
-        <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
-            <div class="navbar-nav">
-                <a href="#!" class="nav-item nav-link mr-4">Features</a>
-                <a href="#!" class="nav-item nav-link mr-4">Pricing</a>
-                <a href="#!" class="nav-item nav-link mr-4">Customers</a>
-                <a href="#!" class="nav-item nav-link mr-4">Blog</a>
-                <a href="#!" class="nav-item nav-link mr-4">Pricing</a>
-                <a href="#!" class="nav-item btn btn-primary">Sign Up</a>
+<!-- Dark Page Wrapper -->
+<div class="bg-dark Pb(30px)">
+    <div class="container Mb(30px)">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="/src/assets/figma_logo.png" alt="Figma Logo"></a>
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--  Nav Menu-->
+            <div class="navbar-collapse collapse justify-content-end" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a href="#!" class="nav-item nav-link mr-4">Features</a>
+                    <a href="#!" class="nav-item nav-link mr-4">Pricing</a>
+                    <a href="#!" class="nav-item nav-link mr-4">Customers</a>
+                    <a href="#!" class="nav-item nav-link mr-4">Blog</a>
+                    <a href="#!" class="nav-item nav-link mr-4">Pricing</a>
+                    <a href="#!" class="nav-item btn btn-primary">Sign Up</a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Hero -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-lg-5 p-5">
-                <h1 class="text-light Fz(3.0rem) Lh(55px)">A better way to design</h1>
-                <h2 class="text-muted Fz(1.5rem) Fw(n) mt-4">Design, prototype, and collaborate all in the browser - with Figma.</h2>
-                <button class="btn btn-primary mt-4">Try Figma for Free</button>
-            </div>
-            <div class="col-lg-7">
-                <img class="img-fluid" src="/src/assets/hero_image.png" alt="Hero Image">
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Justification -->
-    <section class="Mt(100px)">
-        <h4 class="text-light text-center Mb(20px)">Empowering innovative brands</h4>
-        <img class="W(70%) Mx(a) d-block" src="src/assets/social_media_icons.png" alt="Brand icons">
-    </section>
-
-    <!-- Collaboration -->
-    <section class="Mt(50px)">
-        <h4 class="text-light text-center">Collaborate with everyone, at every phase</h4>
-        <h5 class="text-muted text-center Fw(n) Lh(30px) Mt(10px) Mb(30px)">Each contributor owns their part of the creative process and stays in sync along the way - across any platform.</h5>
-        <div class="container">
+        <!-- Hero -->
+        <section class="container mt-5">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="card bg-dark">
-                        <img class="img-fluid" src="src/assets/collaboration_designers.png" alt="Designers">
-                        <div class="card-body Pstart(0)">
-                            <h5 class="card-title text-light Fz(1.5rem)">Your Designers</h5>
-                            <p class="card-text text-light Fz(0.8rem)">Collaborate in context and in real time. Never worry about your files being out of date or overwriting each other’s work.</p>
+                <div class="col-lg-5 p-5">
+                    <h1 class="text-light Fz(3.0rem)--md Fz(2.5rem) Lh(55px)">A better way to design</h1>
+                    <h2 class="text-muted Fz(1.5rem) Fw(n) mt-4">Design, prototype, and collaborate all in the browser - with Figma.</h2>
+                    <button class="btn btn-primary mt-4">Try Figma for Free</button>
+                </div>
+                <div class="col-lg-7">
+                    <img class="img-fluid" src="/src/assets/hero_image.png" alt="Hero Image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Justification -->
+        <section class="Mt(100px)">
+            <h4 class="text-light text-center Mb(20px)">Empowering innovative brands</h4>
+            <img class="W(70%)--md W(100%) Mx(a) d-block" src="src/assets/social_media_icons.png" alt="Brand icons">
+        </section>
+
+        <!-- Collaboration -->
+        <section class="Mt(50px)">
+            <h4 class="text-light text-center">Collaborate with everyone, at every phase</h4>
+            <h5 class="text-muted text-center Fw(n) Lh(30px) Mt(10px) Mb(30px)">Each contributor owns their part of the creative process and stays in sync along the way - across any platform.</h5>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card bg-dark Mb(30px)">
+                            <img class="img-fluid" src="src/assets/collaboration_designers.png" alt="Designers">
+                            <div class="card-body Pstart(0)">
+                                <h5 class="card-title text-light Fz(1.5rem)">Your Designers</h5>
+                                <p class="card-text text-light Fz(0.8rem)">Collaborate in context and in real time. Never worry about your files being out of date or overwriting each other’s work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card bg-dark Mb(30px)">
+                            <img class="img-fluid" src="src/assets/collaboration_stakeholders.png" alt="Stakeholders">
+                            <div class="card-body Pstart(0)">
+                                <h5 class="card-title text-light Fz(1.5rem)">Your Stakeholders</h5>
+                                <p class="card-text text-light Fz(0.8rem)">Simply send a link to collect feedback, get change requests, and allow stakeholders to make copy updates in your designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card bg-dark Mb(30px)">
+                            <img class="img-fluid" src="src/assets/collaboration_developers.png" alt="Developers">
+                            <div class="card-body Pstart(0)">
+                                <h5 class="card-title text-light Fz(1.5rem)">Your Developers</h5>
+                                <p class="card-text text-light Fz(0.8rem)">Engineers always have access to the current source-of-truth and can inspect elements, export assests, and copy code.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="card bg-dark">
-                        <img class="img-fluid" src="src/assets/collaboration_stakeholders.png" alt="Stakeholders">
-                        <div class="card-body Pstart(0)">
-                            <h5 class="card-title text-light Fz(1.5rem)">Your Stakeholders</h5>
-                            <p class="card-text text-light Fz(0.8rem)">Simply send a link to collect feedback, get change requests, and allow stakeholders to make copy updates in your designs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="card bg-dark">
-                        <img class="img-fluid" src="src/assets/collaboration_developers.png" alt="Developers">
-                        <div class="card-body Pstart(0)">
-                            <h5 class="card-title text-light Fz(1.5rem)">Your Developers</h5>
-                            <p class="card-text text-light Fz(0.8rem)">Engineers always have access to the current source-of-truth and can inspect elements, export assests, and copy code.</p>
-                        </div>
-                    </div>
+                <button class="btn btn-primary d-block Mx(a) My(30px) W(250px)">Try Figma for Free</button>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+<!-- Light Page Wrapper -->
+<div class="bg-light">
+    <div class="container">
+        <!-- Call to Action  -->
+        <div class="container-fluid Py(100px)">
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-12">
+                    <h3 class="text-center My(10px)">Try Figma for free</h3>
+                    <button class="Bdc(#808080):h form-control My(20px) d-flex justify-content-center align-items-center"><img src="src/assets/google_logo.png" alt=""><span>Sign up with Google</span></button>
+                    <h4 class="text-center My(20px) Fz(1.3rem)">or</h4>
+                    <form action="">
+                        <label class="sr-only" for="emailField">Email</label>
+                        <input class="form-control My(10px)" type="email" id="emailField" name="email" placeholder="Email">
+                        <label class="sr-only" for="passwordField">Password</label>
+                        <input class="form-control My(10px)" type="password" id="passwordField" name="password" placeholder="Password">
+                        <input class="btn btn-primary form-control" type="submit" value="Create Account ...">
+                    </form>
+                    <small class="d-block text-center My(10px)"><a href="#!">Sign up with SAML SSO</a></small>
+                    <small class="d-block text-center My(10px)">Already have an account? <a href="#!">Sign In</a></small>
                 </div>
             </div>
         </div>
-        <button class="btn btn-primary d-block Mx(a) mt-4">Try Figma for Free</button>
-    </section>
 
+        <!-- Footer -->
+        <div class="container Py(30px)">
+            <div class="row justify-content-xl-between">
+                <!-- Social Media -->
+                <div class="footer_column">
+                    <h2 class="Mt(-5px)">Figma</h2>
+                    <a class="footer_columnLink" href="#!">
+                        <img src="src/assets/instagram_logo.png" alt="Instagram Logo">
+                        <span> Instagram</span>
+                    </a>
+                    <a class="footer_columnLink" href="#!">
+                        <img src="src/assets/facebook_logo.png" alt="Facebook Logo">
+                        <span> Facebook</span>
+                    </a>
+                    <a class="footer_columnLink" href="#!">
+                        <img src="src/assets/twitter_logo.png" alt="Twitter Logo">
+                        <span> Twitter</span>
+                    </a>
+                </div>
 
+                <!-- Footer Links -->
+                <div class="footer_column">
+                    <h5>Use Cases</h5>
+                    <a class="footer_columnLink" href="#!">UI Design</a>
+                    <a class="footer_columnLink" href="#!" >UX Design</a>
+                    <a class="footer_columnLink" href="#!">Prototyping</a>
+                    <a class="footer_columnLink" href="#!">Graphic Design</a>
+                    <a class="footer_columnLink" href="#!">Wireframing</a>
+                    <a class="footer_columnLink" href="#!">Brainstorming</a>
+                </div>
 
+                <!-- Footer Links -->
+                <div class="footer_column">
+                    <h5>Explore</h5>
+                    <a class="footer_columnLink" href="#!">Figma</a>
+                    <a class="footer_columnLink" href="#!">Customers</a>
+                    <a class="footer_columnLink" href="#!">Why I Love Figma</a>
+                    <a class="footer_columnLink" href="#!">Blog</a>
+                    <a class="footer_columnLink" href="#!">Pricing</a>
+                    <a class="footer_columnLink" href="#!">Features</a>
+                    <a class="footer_columnLink" href="#!">Contact</a>
+                    <a class="footer_columnLink" href="#!">Learn Design</a>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer_column">
+                    <h5>Resources</h5>
+                    <a class="footer_columnLink" href="#!">Community Resources Hub</a>
+                    <a class="footer_columnLink" href="#!">Support</a>
+                    <a class="footer_columnLink" href="#!">Education</a>
+                    <a class="footer_columnLink" href="#!">Developers</a>
+                    <a class="footer_columnLink" href="#!">Downloads</a>
+                    <a class="footer_columnLink" href="#!">Releases</a>
+                    <a class="footer_columnLink" href="#!">Careers</a>
+                    <a class="footer_columnLink" href="#!">Legal</a>
+                    <a class="footer_columnLink" href="#!">Design Dictionary</a>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer_column">
+                    <h5>Compare</h5>
+                    <a class="footer_columnLink" href="#!">Sketch</a>
+                    <a class="footer_columnLink" href="#!">Adobe XD</a>
+                    <a class="footer_columnLink" href="#!">Invision Studio</a>
+                    <a class="footer_columnLink" href="#!">Framer</a>
+                    <a class="footer_columnLink" href="#!">Design on Windows</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
+
+
 
 
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
