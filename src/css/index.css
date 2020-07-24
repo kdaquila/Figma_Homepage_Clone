@@ -7167,14 +7167,8 @@ a.text-dark:hover, a.text-dark:focus {
 .debug-dark {
   border: 1px solid red; }
 
-.specialClass {
-  background-color: #0b2e13; }
-
-.specialButton {
-  color: #343a40;
-  font-size: 20px;
-  background-color: #ff3838;
-  padding: 40px; }
+.footer_column {
+  margin-top: 30px; }
 
 .footer_columnLink {
   display: block;
