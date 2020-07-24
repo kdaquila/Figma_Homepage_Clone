@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 const acss = require('gulp-atomizer');
+const image = require('gulp-image');
 
 //compile scss into css
 function compileSass() {
@@ -49,4 +50,22 @@ function live_server() {
     });
 }
 
+function copy_images () {
+    return gulp.src('./src/img/*').
+    pipe(image()).
+    pipe(gulp.dest('./dist/src/img'));
+}
+
+function copy_css () {
+    return gulp.src('./src/css/*').pipe(gulp.dest('./dist/src/css'));
+}
+
+function copy_html () {
+    return gulp.src('./src/templates/*').pipe(gulp.dest('./dist/src/templates'));
+}
+
 exports.live_server = live_server;
+exports.build = gulp.series(
+    gulp.parallel(compileSass, compileAtomicCSS),
+    gulp.parallel(copy_images, copy_css, copy_html)
+);
