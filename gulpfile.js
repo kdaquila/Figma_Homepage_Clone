@@ -3,6 +3,7 @@ const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 const acss = require('gulp-atomizer');
 const image = require('gulp-image');
+const cleanCSS = require('gulp-clean-css');
 
 //compile scss into css
 function compileSass() {
@@ -57,7 +58,9 @@ function copy_images () {
 }
 
 function copy_css () {
-    return gulp.src('./src/css/*').pipe(gulp.dest('./dist/src/css'));
+    return gulp.src('./src/css/*').
+    pipe(cleanCSS()).
+    pipe(gulp.dest('./dist/src/css'));
 }
 
 function copy_html () {
